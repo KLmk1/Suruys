@@ -1,0 +1,36 @@
+/* Chat.module.scss */
+.message {
+    color: black;
+    word-wrap: break-word;
+  }
+  
+.chatContainer {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.chatname {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.buttonYesNo {
+    margin-right: 30px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.chatContent {
+    height: calc(100% + 100px);
+}
